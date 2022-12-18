@@ -1,5 +1,6 @@
 FROM ruby:2.4-alpine3.7
 
+RUN apk --update add build-base nodejs tzdata postgresql-dev postgresql-client libxslt-dev libxml2-dev imagemagick
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
@@ -13,5 +14,7 @@ ENV POST_SERVICE_HOST post
 ENV POST_SERVICE_PORT 5000
 ENV COMMENT_SERVICE_HOST comment
 ENV COMMENT_SERVICE_PORT 9292
+
+
 
 CMD ["puma"]
