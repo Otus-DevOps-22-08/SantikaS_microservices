@@ -1,17 +1,13 @@
 FROM ruby:2.4-alpine3.7
 
-RUN apk --update add build-base nodejs tzdata postgresql-dev postgresql-client libxslt-dev libxml2-dev imagemagick
-
-
-
 
 ENV APP_HOME /app
 RUN mkdir $APP_HOME
 
 WORKDIR $APP_HOME
-ADD Gemfile* $APP_HOME/
+COPY Gemfile* $APP_HOME/
 RUN bundle install
-ADD . $APP_HOME
+COPY . $APP_HOME
 
 ENV POST_SERVICE_HOST post
 ENV POST_SERVICE_PORT 5000
