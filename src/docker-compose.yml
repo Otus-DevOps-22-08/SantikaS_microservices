@@ -5,6 +5,7 @@ services:
       - post_db:${POST_DB_DATA}
     networks:
       - back_net
+      - front_net
   ui:
     build: ./ui
     image: ${USERNAME}/ui:${UI_VERSION}
@@ -17,12 +18,14 @@ services:
     image: ${USERNAME}/post:${POST_VERSION}
     networks:
       - back_net
+      - front_net
 
   comment:
     build: ./comment
     image: ${USERNAME}/comment:${COMMENT_VERSION}
     networks:
       - back_net
+      - front_net
 
 volumes:
   post_db:
