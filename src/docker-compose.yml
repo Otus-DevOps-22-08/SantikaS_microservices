@@ -17,13 +17,12 @@ services:
     image: ${USERNAME}/post:${POST_VERSION}
     networks:
       - back_net
-      - front_net
+
   comment:
     build: ./comment
     image: ${USERNAME}/comment:${COMMENT_VERSION}
     networks:
       - back_net
-      - front_net
 
 volumes:
   post_db:
