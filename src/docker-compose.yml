@@ -2,7 +2,7 @@ services:
   post_db:
     image: mongo:${MONGO_VERSION}
     volumes:
-      - post_db:/data/db
+      - post_db:${POST_DB_DATA}
     networks:
       - back_net
   ui:
