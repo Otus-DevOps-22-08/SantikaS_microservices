@@ -3,6 +3,9 @@ services:
     image: mongo:${MONGO_VERSION}
     volumes:
       - post_db:${POST_DB_DATA}
+    network-alias:
+      - post_db
+      - comment_db
     networks:
       - back_net
       - front_net
@@ -16,6 +19,8 @@ services:
   post:
     build: ./post-py
     image: ${USERNAME}/post:${POST_VERSION}
+    network-alias:
+      - post
     networks:
       - back_net
       - front_net
@@ -23,6 +28,8 @@ services:
   comment:
     build: ./comment
     image: ${USERNAME}/comment:${COMMENT_VERSION}
+    network-alias:
+      - comment
     networks:
       - back_net
       - front_net
