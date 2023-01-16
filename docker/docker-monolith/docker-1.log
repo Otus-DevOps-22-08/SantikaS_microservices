@@ -1,0 +1,6 @@
+REPOSITORY                 TAG       IMAGE ID       CREATED              SIZE
+santikas/ubuntu-tmp-file   latest    b85915359b17   About a minute ago   63.1MB
+ubuntu                     18.04     71eaf13299f4   3 weeks ago          63.1MB
+hello-world                latest    feb5d9fea6a5   14 months ago        13.3kB
+
+image не имеет статуса выполнения, не имеет редактируемого пространства и не имеет подключения к сети.
