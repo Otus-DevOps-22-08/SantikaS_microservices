@@ -1,0 +1,6 @@
+output "external_ip_address" {
+  value = module.docker.external_ip_address
+}
+output "internal_ip_address" {
+  value = module.docker.internal_ip_address
+}

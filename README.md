@@ -15,3 +15,14 @@ SantikaS microservices repository
 ##Add .env file
 ##Name of project - own directory || env COMPOSE_PROJECT_NAME
 ##**Add docker-compose.override.yml file
+
+##DZ N16
+##Add directory docker with directory monitoring
+##Add directory prometheus
+##Add Dockerfile
+##Add file prometheus.yml
+##Add service prometheus to docker-compose.yml
+##Add node-exporter service
+##Add mongodb-exporter service
+##Add blackbox-exporter service
+##Add Makefile to prometeus service

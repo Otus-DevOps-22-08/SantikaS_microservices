@@ -1,0 +1,9 @@
+{
+  "variables": {
+    "yc_service_account_key_file": "secret/key.json",
+    "yc_folder_id": "b1go6n4v0euub81ni9rf",
+    "yc_source_image_family": "ubuntu-1604-lts",
+    "yc_image_name": "docker-reddit-app-base-{{timestamp}}",
+    "yc_image_family": "docker-reddit-app-base"
+  }
+}
