@@ -26,3 +26,9 @@ SantikaS microservices repository
 ##Add mongodb-exporter service
 ##Add blackbox-exporter service
 ##Add Makefile to prometeus service
+
+##DZ N17
+##Add docker/docker-compose-logging.yml file
+##Add logging/fluentd directory
+##Add logging/fluentd/fluent.conf file
+##Include Zipkin
