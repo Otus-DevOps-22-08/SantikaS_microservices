@@ -32,3 +32,10 @@ SantikaS microservices repository
 ##Add logging/fluentd directory
 ##Add logging/fluentd/fluent.conf file
 ##Include Zipkin
+
+##DZ N18
+##Add kubernetes/reddit directory
+##Add post-deployment.yml file
+##Add ui-deployment.yml
+##Add comment-deployment.yml
+##Add mongo-deployment.yml
