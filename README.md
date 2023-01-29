@@ -39,3 +39,11 @@ SantikaS microservices repository
 ##Add ui-deployment.yml
 ##Add comment-deployment.yml
 ##Add mongo-deployment.yml
+
+##DZ N19
+##Add gitlab-ci directory
+##Add docker-compose.yml file
+##Add .gitlab-ci.yml
+##Add reddit directory
+##Add Gemfile
+##Add simpletest.rb
