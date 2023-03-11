@@ -47,3 +47,17 @@ SantikaS microservices repository
 ##Add reddit directory
 ##Add Gemfile
 ##Add simpletest.rb
+
+##DZ N20
+##Modified file ui-deployment.yml
+##Modified file comment-deployment.yml
+##Modified file post-deployment.yml
+##Modified file mongo-deployment.yml
+##Add Services
+##comment-service.yml
+##post-service.yml
+##post-mongodb-service.yml
+##mongodb-service.yml
+##comment-mongodb-service.yml
+##ui-service.yml
+##Add file dev-namespace.yml
