@@ -67,3 +67,7 @@ SantikaS microservices repository
 ##Add file ui-ingress.yml
 ##Add file mongo-network-policy.yml
 ##Modified file mongo-deployment.yml
+##Add file mongo-claim.yml
+##Add file mongo-claim-dynamic.yml
+##Add file mongo-volume.yml
+##Add file storage-fast.yml
