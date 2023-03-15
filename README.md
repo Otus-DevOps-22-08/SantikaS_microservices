@@ -61,3 +61,9 @@ SantikaS microservices repository
 ##comment-mongodb-service.yml
 ##ui-service.yml
 ##Add file dev-namespace.yml
+
+##DZ N21
+##Modified file ui-service.yml
+##Add file ui-ingress.yml
+##Add file mongo-network-policy.yml
+##Modified file mongo-deployment.yml
