@@ -71,3 +71,11 @@ SantikaS microservices repository
 ##Add file mongo-claim-dynamic.yml
 ##Add file mongo-volume.yml
 ##Add file storage-fast.yml
+
+##DZ N22
+##Add directory Charts
+##Add subdirectories comment, post, reddit, ui
+##Create files Chart.yaml
+##Add directory templates and files deployment, ingress? service
+##Add files _helpers.tpl
+##Add files values.yaml
